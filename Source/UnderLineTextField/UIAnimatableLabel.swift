@@ -130,7 +130,7 @@ extension UIAnimatableLabel {
                                                 attributes: [.font: font],
                                                 context: nil)
         widthConstraint.constant = boundingRect.width + 8
-        heightConstraint.constant = boundingRect.height + 4
+        heightConstraint.constant = boundingRect.height
         layoutIfNeeded()
     }
 
